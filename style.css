@@ -1,0 +1,64 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ecf0f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Zilla Slab',serif;
+}
+.header{
+    width: 80%;
+    height: 80px;
+    background-color: #ecf0f3;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px #cdcde1,
+    -5px -5px 5px #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #cdcde1;
+}
+.links{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: #31344b;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background-color: #ecf0f3;
+    border-radius: 10px;
+    padding: 15px 25px;
+    transition: all 0.5s;
+}
+.link:hover{
+    color: #aaa;
+    box-shadow: inset 5px 5px 7px #cdcde1,
+    inset -5px -5px 5px #ffffff;
+}
+.signup{
+    box-shadow: inset 5px 5px 7px #cdcde1,
+    inset -5px -5px 5px #ffffff;
+}
